@@ -28,7 +28,7 @@ if (isset($_GET['lang'])) {
 
 <body class="font-sans bg-gray-50">
     <!-- Navigation - เปลี่ยนสีจาก blue เป็น teal -->
-    <nav class="bg-teal-500 text-white shadow-lg">
+    <nav class="bg-teal-500 text-white shadow-lg text-6xl">
         <div class="flex items-center justify-between px-4 md:px-8 max-w-screen-xl mx-auto">
             <div class="py-2">
                 <a href="index.php" class="flex flex-col items-center">
@@ -37,43 +37,43 @@ if (isset($_GET['lang'])) {
                     <h1 class="text-xl font-bold mt-2"><?php echo $_SESSION['lang'] == 'lo' ? SITE_NAME_LO : SITE_NAME_EN; ?></h1>
                 </a>
             </div>
-            <div class="hidden md:flex items-center space-x-6">
-                <a href="index.php" class="hover:text-teal-100 text-sm font-medium"><?php echo t('ໜ້າຫຼັກ', 'Home'); ?></a>
+            <div class="hidden md:flex items-center space-x-6 ml-24">
+                <a href="index.php" class="hover:text-teal-100 text-lg font-medium"><?php echo t('ໜ້າຫຼັກ', 'Home'); ?></a>
 
                 <!-- Dropdown Menu - About -->
                 <div class="relative dropdown-container">
-                    <button class="hover:text-teal-100 flex items-center focus:outline-none bg-transparent border-none text-white dropdown-toggle text-sm font-medium">
+                    <button class="hover:text-teal-100 flex items-center focus:outline-none bg-transparent border-none text-white dropdown-toggle text-lg font-medium">
                         <?php echo t('ກ່ຽວກັບເຮົາ', 'About'); ?>
                         <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
                     </button>
                     <div class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50 hidden dropdown-menu">
-                        <a href="about.php" class="block px-4 py-2 text-sm text-gray-700 hover:bg-teal-50">
+                        <a href="about.php" class="block px-4 py-2 text-lg text-gray-700 hover:bg-teal-50">
                             <?php echo t('ກ່ຽວກັບຄລີນິກ', 'About Clinic'); ?>
                         </a>
-                        <a href="team.php" class="block px-4 py-2 text-sm text-gray-700 hover:bg-teal-50">
+                        <a href="team.php" class="block px-4 py-2 text-lg text-gray-700 hover:bg-teal-50">
                             <?php echo t('ທີມແພດ', 'Medical Team'); ?>
                         </a>
-                        <a href="management.php" class="block px-4 py-2 text-sm text-gray-700 hover:bg-teal-50">
+                        <a href="management.php" class="block px-4 py-2 text-lg text-gray-700 hover:bg-teal-50">
                             <?php echo t('ທີມບໍລິຫານ', 'Management Team'); ?>
                         </a>
                     </div>
                 </div>
 
-                <a href="services.php" class="hover:text-teal-100 text-sm font-medium"><?php echo t('ບໍລິການ', 'Services'); ?></a>
-                <a href="contact.php" class="hover:text-teal-100 text-sm font-medium"><?php echo t('ຕິດຕໍ່', 'Contact'); ?></a>
+                <a href="services.php" class="hover:text-teal-100 text-lg font-medium"><?php echo t('ບໍລິການ', 'Services'); ?></a>
+                <a href="contact.php" class="hover:text-teal-100 text-lg font-medium"><?php echo t('ຕິດຕໍ່', 'Contact'); ?></a>
 
                 <!-- ปุ่ม Appointment สำหรับเดสก์ท็อป -->
-                <a href="appointments.php" class="bg-teal-700 hover:bg-teal-800 px-4 py-2 rounded-lg transition duration-300 text-sm font-medium">
+                <a href="appointments.php" class="bg-teal-700 hover:bg-teal-800 px-4 py-2 rounded-lg transition duration-300 text-lg font-medium">
                     <?php echo t('ນັດໝາຍ', 'Appointment'); ?>
                 </a>
 
                 <!-- Language Switcher -->
                 <div class="flex items-center space-x-2 ml-4">
-                    <a href="?lang=lo" class="text-sm <?php echo $_SESSION['lang'] == 'lo' ? 'font-bold underline' : 'opacity-70'; ?>">ລາວ</a>
+                    <a href="?lang=lo" class="text-lg <?php echo $_SESSION['lang'] == 'lo' ? 'font-bold underline' : 'opacity-70'; ?>">ລາວ</a>
                     <span class="text-gray-300">|</span>
-                    <a href="?lang=en" class="text-sm <?php echo $_SESSION['lang'] == 'en' ? 'font-bold underline' : 'opacity-70'; ?>">EN</a>
+                    <a href="?lang=en" class="text-lg <?php echo $_SESSION['lang'] == 'en' ? 'font-bold underline' : 'opacity-70'; ?>">EN</a>
                 </div>
             </div>
 

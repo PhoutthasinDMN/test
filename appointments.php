@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <section class="py-16 bg-white">
     <div class="container mx-auto px-6">
         <div class="max-w-3xl mx-auto">
-            <h2 class="text-3xl font-bold text-center text-blue-800 mb-2"><?php echo t("ນັດໝາຍແພດ", "Book Doctor Appointment"); ?></h2>
+            <h2 class="text-3xl font-bold text-center text-teal-800 mb-2"><?php echo t("ນັດໝາຍແພດ", "Book Doctor Appointment"); ?></h2>
             <p class="text-center text-gray-600 mb-12"><?php echo t("ກະລຸນາປ້ອນຂໍ້ມູນດ້ານລຸ່ມເພື່ອນັດໝາຍແພດຂອງເຮົາ", "Please fill in the information below to book an appointment with our doctors"); ?></p>
             
             <?php if (isset($success)): ?>
@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </div>
             <?php endif; ?>
             
-            <form action="appointments.php" method="POST" class="bg-blue-50 p-8 rounded-lg shadow-md" id="appointment-form">
+            <form action="appointments.php" method="POST" class="bg-teal-50 p-8 rounded-lg shadow-md" id="appointment-form">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <!-- Name -->
                     <div>
@@ -131,7 +131,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 
                 <!-- Submit Button -->
                 <div class="mt-8 text-center">
-                    <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold text-lg transition duration-300"><?php echo t("ສົ່ງຄຳນັດໝາຍ", "Send Appointment"); ?></button>
+                    <button type="submit" class="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 rounded-lg font-semibold text-lg transition duration-300"><?php echo t("ສົ່ງຄຳນັດໝາຍ", "Send Appointment"); ?></button>
                 </div>
             </form>
         </div>
@@ -139,21 +139,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </section>
 
 <!-- Contact Info -->
-<section class="py-16 bg-blue-50">
+<section class="py-16 bg-teal-50">
     <div class="container mx-auto px-6">
         <div class="max-w-4xl mx-auto">
             <div class="bg-white p-8 rounded-lg shadow-md">
-                <h3 class="text-2xl font-bold text-blue-800 mb-6"><?php echo t("ຂໍ້ມູນຕິດຕໍ່", "Contact Information"); ?></h3>
+                <h3 class="text-2xl font-bold text-teal-800 mb-6"><?php echo t("ຂໍ້ມູນຕິດຕໍ່", "Contact Information"); ?></h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
-                        <h4 class="text-lg font-semibold text-blue-700 mb-4"><?php echo t("ທີ່ຢູ່ຄລີນິກ", "Clinic Address"); ?></h4>
-                        <p class="text-gray-700 mb-2"><i class="fas fa-map-marker-alt text-blue-600 mr-2"></i> <?php echo SITE_ADDRESS; ?></p>
-                        <p class="text-gray-700"><i class="fas fa-clock text-blue-600 mr-2"></i> <?php echo t("ເປີດບໍລິການທຸກວັນ", "Open daily"); ?> <?php echo SITE_WORKING_HOURS; ?></p>
+                        <h4 class="text-lg font-semibold text-teal-700 mb-4"><?php echo t("ທີ່ຢູ່ຄລີນິກ", "Clinic Address"); ?></h4>
+                        <p class="text-gray-700 mb-2"><i class="fas fa-map-marker-alt text-teal-600 mr-2"></i> <?php echo SITE_ADDRESS; ?></p>
+                        <p class="text-gray-700"><i class="fas fa-clock text-teal-600 mr-2"></i> <?php echo t("ເປີດບໍລິການທຸກວັນ", "Open daily"); ?> <?php echo SITE_WORKING_HOURS; ?></p>
                     </div>
                     <div>
-                        <h4 class="text-lg font-semibold text-blue-700 mb-4"><?php echo t("ຊ່ອງທາງຕິດຕໍ່", "Contact Channels"); ?></h4>
-                        <p class="text-gray-700 mb-2"><i class="fas fa-phone-alt text-blue-600 mr-2"></i> <?php echo SITE_PHONE; ?></p>
-                        <p class="text-gray-700"><i class="fas fa-envelope text-blue-600 mr-2"></i> <?php echo SITE_EMAIL; ?></p>
+                        <h4 class="text-lg font-semibold text-teal-700 mb-4"><?php echo t("ຊ່ອງທາງຕິດຕໍ່", "Contact Channels"); ?></h4>
+                        <p class="text-gray-700 mb-2"><i class="fas fa-phone-alt text-teal-600 mr-2"></i> <?php echo SITE_PHONE; ?></p>
+                        <p class="text-gray-700"><i class="fas fa-envelope text-teal-600 mr-2"></i> <?php echo SITE_EMAIL; ?></p>
                     </div>
                 </div>
             </div>

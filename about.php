@@ -8,7 +8,7 @@ require_once 'includes/header.php';
 <section class="relative h-96 overflow-hidden">
     <div class="absolute inset-0">
         <img src="assets/images/about-hero.jpg" alt="<?php echo t('ຄລີນິກວັນເມດ', 'OneMeds Clinic'); ?>" class="w-full h-full object-cover">
-        <div class="absolute inset-0 bg-blue-900 bg-opacity-70"></div>
+        <div class="absolute inset-0 bg-teal-900 bg-opacity-70"></div>
     </div>
     <div class="relative h-full flex items-center justify-center text-center z-10 px-4">
         <div class="max-w-3xl">
@@ -26,16 +26,16 @@ require_once 'includes/header.php';
             <div class="md:w-1/2 mb-10 md:mb-0 md:pr-12">
                 <div class="relative">
                     <img src="assets/images/clinic-building.jpg" alt="<?php echo t('ອາຄານຄລີນິກ', 'Clinic Building'); ?>" class="w-full h-auto rounded-lg shadow-xl">
-                    <div class="absolute -bottom-6 -right-6 bg-blue-600 text-white p-6 rounded-lg shadow-lg hidden md:block">
+                    <div class="absolute -bottom-6 -right-6 bg-teal-600 text-white p-6 rounded-lg shadow-lg hidden md:block">
                         <div class="text-3xl font-bold"><?php echo t('ສ້າງຕັ້ງ', 'Est.'); ?> 2013</div>
                     </div>
                 </div>
             </div>
             <div class="md:w-1/2">
-                <div class="inline-block bg-blue-50 px-3 py-1 rounded-full text-blue-700 font-medium text-sm mb-4">
+                <div class="inline-block bg-teal-50 px-3 py-1 rounded-full text-teal-700 font-medium text-sm mb-4">
                     <?php echo t('ເລື່ອງລາວຂອງພວກເຮົາ', 'Our Story'); ?>
                 </div>
-                <h2 class="text-3xl font-bold text-blue-800 mb-6">
+                <h2 class="text-3xl font-bold text-teal-800 mb-6">
                     <?php echo t('ປະຫວັດຄວາມເປັນມາ', 'Our History'); ?>
                 </h2>
                 
@@ -50,20 +50,20 @@ require_once 'includes/header.php';
                 <div class="flex items-center mb-6">
                     <img src="assets/images/founder.jpg" alt="<?php echo t('ຜູ້ກໍ່ຕັ້ງຄລີນິກ', 'Clinic Founder'); ?>" class="w-16 h-16 rounded-full object-cover mr-4">
                     <div>
-                        <div class="font-semibold text-blue-800"><?php echo t('ດຣ. ພູເຕັມ ດວງມະນີ', 'Dr. Phoutem Douangmany'); ?></div>
+                        <div class="font-semibold text-teal-800"><?php echo t('ດຣ. ພູເຕັມ ດວງມະນີ', 'Dr. Phoutem Douangmany'); ?></div>
                         <div class="text-gray-600"><?php echo t('ຜູ້ກໍ່ຕັ້ງ & ຜູ້ອຳນວຍການ', 'Founder & Director'); ?></div>
                     </div>
                 </div>
                 
-                <blockquote class="italic text-gray-700 border-l-4 border-blue-500 pl-4 py-2 mb-6">
+                <blockquote class="italic text-gray-700 border-l-4 border-teal-500 pl-4 py-2 mb-6">
                     <?php echo t('"ພາລະກິດຂອງພວກເຮົາແມ່ນງ່າຍດາຍ - ເພື່ອສະໜອງການດູແລສຸຂະພາບທີ່ມີຄຸນນະພາບສູງໃນບັນຍາກາດທີ່ອົບອຸ່ນແລະເຂົ້າເຖິງໄດ້."', '"Our mission is simple - to provide high-quality healthcare in a warm and accessible atmosphere."'); ?>
                 </blockquote>
                 
                 <div class="flex space-x-4">
-                    <a href="services.php" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition duration-300">
+                    <a href="services.php" class="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-semibold transition duration-300">
                         <?php echo t('ບໍລິການຂອງພວກເຮົາ', 'Our Services'); ?>
                     </a>
-                    <a href="contact.php" class="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-semibold transition duration-300">
+                    <a href="contact.php" class="border border-teal-600 text-teal-600 hover:bg-teal-50 px-6 py-3 rounded-lg font-semibold transition duration-300">
                         <?php echo t('ຕິດຕໍ່ພວກເຮົາ', 'Contact Us'); ?>
                     </a>
                 </div>
@@ -76,10 +76,10 @@ require_once 'includes/header.php';
 <section class="py-16 bg-white">
     <div class="container mx-auto px-6">
         <div class="text-center mb-16">
-            <div class="inline-block bg-blue-50 px-3 py-1 rounded-full text-blue-700 font-medium text-sm mb-4">
+            <div class="inline-block bg-teal-50 px-3 py-1 rounded-full text-teal-700 font-medium text-sm mb-4">
                 <?php echo t('ພາລະກິດ & ວິໄສທັດ', 'Mission & Vision'); ?>
             </div>
-            <h2 class="text-3xl font-bold text-blue-800 mb-4">
+            <h2 class="text-3xl font-bold text-teal-800 mb-4">
                 <?php echo t('ສິ່ງທີ່ຂັບເຄື່ອນພວກເຮົາ', 'What Drives Us'); ?>
             </h2>
             <p class="text-gray-700 max-w-2xl mx-auto">
@@ -90,26 +90,26 @@ require_once 'includes/header.php';
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Mission -->
             <div class="bg-white rounded-xl overflow-hidden shadow-lg transition duration-300 hover:shadow-xl transform hover:-translate-y-2">
-                <div class="h-2 bg-blue-600"></div>
+                <div class="h-2 bg-teal-600"></div>
                 <div class="p-8">
-                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                        <i class="fas fa-bullseye text-blue-600 text-2xl"></i>
+                    <div class="w-16 h-16 bg-teal-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-bullseye text-teal-600 text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-blue-800 mb-4"><?php echo t('ພາລະກິດ', 'Our Mission'); ?></h3>
+                    <h3 class="text-xl font-bold text-teal-800 mb-4"><?php echo t('ພາລະກິດ', 'Our Mission'); ?></h3>
                     <p class="text-gray-700 mb-6">
                         <?php echo t('ເພື່ອສະໜອງການບໍລິການທາງການແພດທີ່ມີຄຸນນະພາບສູງໃນສະພາບແວດລ້ອມທີ່ອົບອຸ່ນ, ເປັນມິດ, ແລະເຂົ້າເຖິງໄດ້ ເພື່ອປັບປຸງສຸຂະພາບໂດຍລວມຂອງຊຸມຊົນຂອງພວກເຮົາ.', 'To provide high-quality medical services in a warm, friendly, and accessible environment to improve the overall health of our community.'); ?>
                     </p>
                     <ul class="space-y-3">
                         <li class="flex items-start">
-                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <i class="fas fa-check-circle text-teal-500 mt-1 mr-2"></i>
                             <span class="text-gray-700"><?php echo t('ສະໜອງການດູແລທີ່ມີຄຸນນະພາບສູງ', 'Provide high-quality care'); ?></span>
                         </li>
                         <li class="flex items-start">
-                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <i class="fas fa-check-circle text-teal-500 mt-1 mr-2"></i>
                             <span class="text-gray-700"><?php echo t('ສ້າງສະພາບແວດລ້ອມທີ່ອົບອຸ່ນແລະເປັນມິດ', 'Create a warm and friendly environment'); ?></span>
                         </li>
                         <li class="flex items-start">
-                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <i class="fas fa-check-circle text-teal-500 mt-1 mr-2"></i>
                             <span class="text-gray-700"><?php echo t('ຮັບປະກັນການເຂົ້າເຖິງສຳລັບຄົນທຸກຄົນ', 'Ensure accessibility for everyone'); ?></span>
                         </li>
                     </ul>
@@ -123,7 +123,7 @@ require_once 'includes/header.php';
                     <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
                         <i class="fas fa-eye text-green-600 text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-blue-800 mb-4"><?php echo t('ວິໄສທັດ', 'Our Vision'); ?></h3>
+                    <h3 class="text-xl font-bold text-teal-800 mb-4"><?php echo t('ວິໄສທັດ', 'Our Vision'); ?></h3>
                     <p class="text-gray-700 mb-6">
                         <?php echo t('ເພື່ອເປັນຜູ້ນຳດ້ານການດູແລສຸຂະພາບໃນພາກພື້ນ, ເປັນທີ່ຮູ້ຈັກສຳລັບຄວາມເປັນເລີດທາງການແພດ, ນະວັດຕະກຳ, ແລະການເອົາໃຈໃສ່ຄົນເຈັບ.', 'To be a healthcare leader in the region, known for medical excellence, innovation, and patient-centered care.'); ?>
                     </p>
@@ -151,7 +151,7 @@ require_once 'includes/header.php';
                     <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
                         <i class="fas fa-heart text-purple-600 text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-blue-800 mb-4"><?php echo t('ຄ່ານິຍົມຂອງພວກເຮົາ', 'Our Values'); ?></h3>
+                    <h3 class="text-xl font-bold text-teal-800 mb-4"><?php echo t('ຄ່ານິຍົມຂອງພວກເຮົາ', 'Our Values'); ?></h3>
                     <p class="text-gray-700 mb-6">
                         <?php echo t('ຄ່ານິຍົມຫຼັກຂອງພວກເຮົາແມ່ນເປັນພື້ນຖານຂອງທຸກສິ່ງທີ່ພວກເຮົາເຮັດແລະຊີ້ນຳການຕັດສິນໃຈຂອງພວກເຮົາທຸກໆມື້.', 'Our core values form the foundation of everything we do and guide our decisions every day.'); ?>
                     </p>
@@ -171,10 +171,10 @@ require_once 'includes/header.php';
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6">
         <div class="text-center mb-16">
-            <div class="inline-block bg-blue-50 px-3 py-1 rounded-full text-blue-700 font-medium text-sm mb-4">
+            <div class="inline-block bg-teal-50 px-3 py-1 rounded-full text-teal-700 font-medium text-sm mb-4">
                 <?php echo t('ທີມງານຂອງພວກເຮົາ', 'Our Team'); ?>
             </div>
-            <h2 class="text-3xl font-bold text-blue-800 mb-4">
+            <h2 class="text-3xl font-bold text-teal-800 mb-4">
                 <?php echo t('ພົບແພດຜູ້ຊ່ຽວຊານຂອງພວກເຮົາ', 'Meet Our Expert Doctors'); ?>
             </h2>
             <p class="text-gray-700 max-w-2xl mx-auto">
@@ -187,24 +187,24 @@ require_once 'includes/header.php';
             <div class="bg-white rounded-xl overflow-hidden shadow-lg transition duration-300 hover:shadow-xl group">
                 <div class="relative overflow-hidden">
                     <img src="assets/images/doctor1.jpg" alt="<?php echo t('ດຣ. ໂນ້ ໃຈດີ', 'Dr. No Jaidee'); ?>" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 to-transparent opacity-0 group-hover:opacity-70 transition duration-300"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-teal-900 to-transparent opacity-0 group-hover:opacity-70 transition duration-300"></div>
                     <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition duration-300">
                         <div class="flex justify-center space-x-4">
-                            <a href="#" class="bg-white text-blue-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-50 transition duration-300">
+                            <a href="#" class="bg-white text-teal-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-teal-50 transition duration-300">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="#" class="bg-white text-blue-400 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-50 transition duration-300">
+                            <a href="#" class="bg-white text-teal-400 w-10 h-10 rounded-full flex items-center justify-center hover:bg-teal-50 transition duration-300">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="#" class="bg-white text-blue-700 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-50 transition duration-300">
+                            <a href="#" class="bg-white text-teal-700 w-10 h-10 rounded-full flex items-center justify-center hover:bg-teal-50 transition duration-300">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="p-6">
-                    <h3 class="text-xl font-semibold text-blue-800 mb-1"><?php echo t('ດຣ. ໂນ້ ໃຈດີ', 'Dr. No Jaidee'); ?></h3>
-                    <p class="text-blue-600 mb-3"><?php echo t('ຫົວໜ້າແຜນກອາຍຸລະກຳ', 'Head of Internal Medicine'); ?></p>
+                    <h3 class="text-xl font-semibold text-teal-800 mb-1"><?php echo t('ດຣ. ໂນ້ ໃຈດີ', 'Dr. No Jaidee'); ?></h3>
+                    <p class="text-teal-600 mb-3"><?php echo t('ຫົວໜ້າແຜນກອາຍຸລະກຳ', 'Head of Internal Medicine'); ?></p>
                     <p class="text-gray-700">
                         <?php echo t('ປະສົບການດ້ານອາຍຸລະກຳມາແລ້ວ 15 ປີ, ຊ່ຽວຊານໃນການປິ່ນປົວໂລກເບົາຫວານແລະຄວາມດັນເລືອດສູງ', 'With 15 years of experience in internal medicine, specializing in diabetes and hypertension treatment'); ?>
                     </p>
@@ -215,24 +215,24 @@ require_once 'includes/header.php';
             <div class="bg-white rounded-xl overflow-hidden shadow-lg transition duration-300 hover:shadow-xl group">
                 <div class="relative overflow-hidden">
                     <img src="assets/images/doctor2.jpg" alt="<?php echo t('ພຍ. ໂນ້ ສຸດໃຈ', 'Dr. No Soudjai'); ?>" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 to-transparent opacity-0 group-hover:opacity-70 transition duration-300"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-teal-900 to-transparent opacity-0 group-hover:opacity-70 transition duration-300"></div>
                     <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition duration-300">
                         <div class="flex justify-center space-x-4">
-                            <a href="#" class="bg-white text-blue-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-50 transition duration-300">
+                            <a href="#" class="bg-white text-teal-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-teal-50 transition duration-300">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="#" class="bg-white text-blue-400 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-50 transition duration-300">
+                            <a href="#" class="bg-white text-teal-400 w-10 h-10 rounded-full flex items-center justify-center hover:bg-teal-50 transition duration-300">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="#" class="bg-white text-blue-700 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-50 transition duration-300">
+                            <a href="#" class="bg-white text-teal-700 w-10 h-10 rounded-full flex items-center justify-center hover:bg-teal-50 transition duration-300">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="p-6">
-                    <h3 class="text-xl font-semibold text-blue-800 mb-1"><?php echo t('ພຍ. ໂນ້ ສຸດໃຈ', 'Dr. No Soudjai'); ?></h3>
-                    <p class="text-blue-600 mb-3"><?php echo t('ແພດເດັກ', 'Pediatrician'); ?></p>
+                    <h3 class="text-xl font-semibold text-teal-800 mb-1"><?php echo t('ພຍ. ໂນ້ ສຸດໃຈ', 'Dr. No Soudjai'); ?></h3>
+                    <p class="text-teal-600 mb-3"><?php echo t('ແພດເດັກ', 'Pediatrician'); ?></p>
                     <p class="text-gray-700">
                         <?php echo t('ຊ່ຽວຊານດ້ານກຸມາລະເວດຊະກຳ, ດ້ວຍປະສົບການ 10 ປີໃນການປິ່ນປົວແລະດູແລເດັກນ້ອຍ', 'Pediatric specialist with 10 years of experience in treating and caring for children'); ?>
                     </p>
@@ -243,24 +243,24 @@ require_once 'includes/header.php';
             <div class="bg-white rounded-xl overflow-hidden shadow-lg transition duration-300 hover:shadow-xl group">
                 <div class="relative overflow-hidden">
                     <img src="assets/images/doctor3.jpg" alt="<?php echo t('ດຣ. ໂນ້ ແສນສຸກ', 'Dr. No Saensuk'); ?>" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 to-transparent opacity-0 group-hover:opacity-70 transition duration-300"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-teal-900 to-transparent opacity-0 group-hover:opacity-70 transition duration-300"></div>
                     <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition duration-300">
                         <div class="flex justify-center space-x-4">
-                            <a href="#" class="bg-white text-blue-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-50 transition duration-300">
+                            <a href="#" class="bg-white text-teal-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-teal-50 transition duration-300">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="#" class="bg-white text-blue-400 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-50 transition duration-300">
+                            <a href="#" class="bg-white text-teal-400 w-10 h-10 rounded-full flex items-center justify-center hover:bg-teal-50 transition duration-300">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="#" class="bg-white text-blue-700 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-50 transition duration-300">
+                            <a href="#" class="bg-white text-teal-700 w-10 h-10 rounded-full flex items-center justify-center hover:bg-teal-50 transition duration-300">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="p-6">
-                    <h3 class="text-xl font-semibold text-blue-800 mb-1"><?php echo t('ດຣ. ໂນ້ ແສນສຸກ', 'Dr. No Saensuk'); ?></h3>
-                    <p class="text-blue-600 mb-3"><?php echo t('ແພດຜິວໜັງ', 'Dermatologist'); ?></p>
+                    <h3 class="text-xl font-semibold text-teal-800 mb-1"><?php echo t('ດຣ. ໂນ້ ແສນສຸກ', 'Dr. No Saensuk'); ?></h3>
+                    <p class="text-teal-600 mb-3"><?php echo t('ແພດຜິວໜັງ', 'Dermatologist'); ?></p>
                     <p class="text-gray-700">
                         <?php echo t('ຊ່ຽວຊານດ້ານໂລກຜິວໜັງ, ຜ່ານການຮຽນແລະຝຶກອົບຮົມຈາກມະຫາວິທະຍາໄລຊັ້ນນຳໃນຕ່າງປະເທດ', 'Skin specialist, educated and trained at leading international universities'); ?>
                     </p>
@@ -269,7 +269,7 @@ require_once 'includes/header.php';
         </div>
         
         <div class="text-center mt-12">
-            <a href="team.php" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition duration-300">
+            <a href="team.php" class="inline-block bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-semibold transition duration-300">
                 <?php echo t('ເບິ່ງທີມງານທັງໝົດ', 'View All Team Members'); ?>
             </a>
         </div>
@@ -280,10 +280,10 @@ require_once 'includes/header.php';
 <section class="py-16 bg-white">
     <div class="container mx-auto px-6">
         <div class="text-center mb-16">
-            <div class="inline-block bg-blue-50 px-3 py-1 rounded-full text-blue-700 font-medium text-sm mb-4">
+            <div class="inline-block bg-teal-50 px-3 py-1 rounded-full text-teal-700 font-medium text-sm mb-4">
                 <?php echo t('ລາງວັນ & ການຢັ້ງຢືນ', 'Awards & Certifications'); ?>
             </div>
-            <h2 class="text-3xl font-bold text-blue-800 mb-4">
+            <h2 class="text-3xl font-bold text-teal-800 mb-4">
                 <?php echo t('ຄວາມສຳເລັດຂອງພວກເຮົາ', 'Our Achievements'); ?>
             </h2>
             <p class="text-gray-700 max-w-2xl mx-auto">
@@ -295,28 +295,28 @@ require_once 'includes/header.php';
             <!-- Award 1 -->
             <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center hover:shadow-lg transition duration-300">
                 <img src="assets/images/award1.png" alt="<?php echo t('ດີເລີດດ້ານການບໍລິການລູກຄ້າ', 'Excellence in Customer Service'); ?>" class="h-16 mx-auto mb-4">
-                <h3 class="text-lg font-semibold text-blue-800 mb-2"><?php echo t('ດີເລີດດ້ານການບໍລິການລູກຄ້າ', 'Excellence in Customer Service'); ?></h3>
+                <h3 class="text-lg font-semibold text-teal-800 mb-2"><?php echo t('ດີເລີດດ້ານການບໍລິການລູກຄ້າ', 'Excellence in Customer Service'); ?></h3>
                 <p class="text-gray-600 text-sm"><?php echo t('2021 - ສະມາຄົມໂຮງໝໍເອກະຊົນແຫ່ງຊາດ', '2021 - National Association of Private Hospitals'); ?></p>
             </div>
             
             <!-- Award 2 -->
             <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center hover:shadow-lg transition duration-300">
                 <img src="assets/images/award2.png" alt="<?php echo t('ການຢັ້ງຢືນຄຸນນະພາບສາກົນ', 'International Quality Certification'); ?>" class="h-16 mx-auto mb-4">
-                <h3 class="text-lg font-semibold text-blue-800 mb-2"><?php echo t('ການຢັ້ງຢືນຄຸນນະພາບສາກົນ', 'International Quality Certification'); ?></h3>
+                <h3 class="text-lg font-semibold text-teal-800 mb-2"><?php echo t('ການຢັ້ງຢືນຄຸນນະພາບສາກົນ', 'International Quality Certification'); ?></h3>
                 <p class="text-gray-600 text-sm"><?php echo t('2022 - JCI ອົງການຮັບຮອງຄຸນນະພາບສາກົນ', '2022 - JCI International Quality Organization'); ?></p>
             </div>
             
             <!-- Award 3 -->
             <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center hover:shadow-lg transition duration-300">
                 <img src="assets/images/award3.png" alt="<?php echo t('ນະວັດຕະກຳດ້ານການດູແລສຸຂະພາບ', 'Healthcare Innovation'); ?>" class="h-16 mx-auto mb-4">
-                <h3 class="text-lg font-semibold text-blue-800 mb-2"><?php echo t('ນະວັດຕະກຳດ້ານການດູແລສຸຂະພາບ', 'Healthcare Innovation'); ?></h3>
+                <h3 class="text-lg font-semibold text-teal-800 mb-2"><?php echo t('ນະວັດຕະກຳດ້ານການດູແລສຸຂະພາບ', 'Healthcare Innovation'); ?></h3>
                 <p class="text-gray-600 text-sm"><?php echo t('2020 - ສະມາຄົມນະວັດຕະກຳແຫ່ງຊາດ', '2020 - National Innovation Association'); ?></p>
             </div>
             
             <!-- Award 4 -->
             <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center hover:shadow-lg transition duration-300">
                 <img src="assets/images/award4.png" alt="<?php echo t('ຄລີນິກທີ່ດີທີ່ສຸດແຫ່ງປີ', 'Best Clinic of the Year'); ?>" class="h-16 mx-auto mb-4">
-                <h3 class="text-lg font-semibold text-blue-800 mb-2"><?php echo t('ຄລີນິກທີ່ດີທີ່ສຸດແຫ່ງປີ', 'Best Clinic of the Year'); ?></h3>
+                <h3 class="text-lg font-semibold text-teal-800 mb-2"><?php echo t('ຄລີນິກທີ່ດີທີ່ສຸດແຫ່ງປີ', 'Best Clinic of the Year'); ?></h3>
                 <p class="text-gray-600 text-sm"><?php echo t('2023 - ວາລະສານການດູແລສຸຂະພາບປະຈຳປະເທດ', '2023 - Country Healthcare Magazine'); ?></p>
             </div>
         </div>
@@ -327,10 +327,10 @@ require_once 'includes/header.php';
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6">
         <div class="text-center mb-12">
-            <div class="inline-block bg-blue-50 px-3 py-1 rounded-full text-blue-700 font-medium text-sm mb-4">
+            <div class="inline-block bg-teal-50 px-3 py-1 rounded-full text-teal-700 font-medium text-sm mb-4">
                 <?php echo t('ຄູ່ຮ່ວມງານ', 'Our Partners'); ?>
             </div>
-            <h2 class="text-3xl font-bold text-blue-800 mb-4">
+            <h2 class="text-3xl font-bold text-teal-800 mb-4">
                 <?php echo t('ພວກເຮົາຮ່ວມມືກັບ', 'We Collaborate With'); ?>
             </h2>
         </div>
@@ -347,27 +347,27 @@ require_once 'includes/header.php';
 </section>
 
 <!-- CTA Section -->
-<section class="py-16 bg-blue-700">
+<section class="py-16 bg-teal-700">
     <div class="container mx-auto px-6">
         <div class="bg-white rounded-xl shadow-2xl overflow-hidden">
             <div class="flex flex-col md:flex-row">
                 <div class="md:w-1/2 p-12 md:p-16">
-                    <h2 class="text-3xl font-bold text-blue-800 mb-6">
+                    <h2 class="text-3xl font-bold text-teal-800 mb-6">
                         <?php echo t('ຕ້ອງການນັດໝາຍກັບແພດຂອງພວກເຮົາບໍ?', 'Need to Schedule an Appointment?'); ?>
                     </h2>
                     <p class="text-gray-700 mb-8 text-lg">
                         <?php echo t('ພວກເຮົາພ້ອມໃຫ້ບໍລິການທ່ານ. ນັດໝາຍອອນລາຍຫຼືໂທຫາພວກເຮົາດຽວນີ້.', 'We are ready to serve you. Book an appointment online or call us now.'); ?>
                     </p>
                     <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                        <a href="appointments.php" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold text-center transition duration-300">
+                        <a href="appointments.php" class="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-semibold text-center transition duration-300">
                             <?php echo t('ນັດໝາຍອອນລາຍ', 'Book Online'); ?>
                         </a>
-                        <a href="tel:<?php echo preg_replace('/[^0-9]/', '', SITE_PHONE); ?>" class="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-semibold text-center transition duration-300">
+                        <a href="tel:<?php echo preg_replace('/[^0-9]/', '', SITE_PHONE); ?>" class="border border-teal-600 text-teal-600 hover:bg-teal-50 px-6 py-3 rounded-lg font-semibold text-center transition duration-300">
                             <i class="fas fa-phone-alt mr-2"></i> <?php echo t('ໂທຫາພວກເຮົາ', 'Call Us'); ?>
                         </a>
                     </div>
                 </div>
-                <div class="md:w-1/2 bg-blue-600 p-12 md:p-16 flex flex-col justify-center text-white">
+                <div class="md:w-1/2 bg-teal-600 p-12 md:p-16 flex flex-col justify-center text-white">
                     <h3 class="text-2xl font-bold mb-6"><?php echo t('ຊົ່ວໂມງເຮັດວຽກ', 'Working Hours'); ?></h3>
                     <ul class="space-y-4">
                         <li class="flex justify-between items-center">
@@ -382,12 +382,12 @@ require_once 'includes/header.php';
                             <span><?php echo t('ວັນອາທິດ', 'Sunday'); ?></span>
                             <span class="font-bold">09:00 - 16:00</span>
                         </li>
-                        <li class="flex justify-between items-center pt-4 border-t border-blue-500">
+                        <li class="flex justify-between items-center pt-4 border-t border-teal-500">
                             <span><?php echo t('ບໍລິການສຸກເສີນ', 'Emergency Service'); ?></span>
                             <span class="font-bold"><?php echo t('24/7', '24/7'); ?></span>
                         </li>
                     </ul>
-                    <div class="mt-8 pt-6 border-t border-blue-500">
+                    <div class="mt-8 pt-6 border-t border-teal-500">
                         <h4 class="font-semibold mb-2"><?php echo t('ທີ່ຢູ່', 'Address'); ?></h4>
                         <p><?php echo SITE_ADDRESS; ?></p>
                     </div>

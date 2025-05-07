@@ -3,7 +3,7 @@
     <div class="fixed bottom-6 right-6 z-50 flex flex-col space-y-4">
         <!-- ปุ่ม Facebook ด้วย SVG -->
         <a href="https://www.facebook.com/nonofear.douangmany/" target="_blank"
-            class="social-popup bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-110">
+            class="social-popup bg-teal-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-teal-700 transition-all duration-300 transform hover:scale-110">
             <svg class="w-6 h-6 text-white" viewBox="0 0 320 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
             </svg>
@@ -36,52 +36,53 @@
             </svg>
             <span class="sr-only">Line</span>
         </a>
-        </div>
+    </div>
 
 
 
 
-        <footer class="bg-blue-900 text-white py-12">
-            <div class="container mx-auto px-6">
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                    <div>
-                        <h3 class="text-xl font-bold mb-4"><?php echo $_SESSION['lang'] == 'lo' ? SITE_NAME_LO : SITE_NAME_EN; ?></h3>
-                        <p class="text-blue-200"><?php echo t('ໃຫ້ບໍລິການທາງການແພດດ້ວຍມາດຕະຖານສູງສຸດ ດ້ວຍຄວາມເອົາໃຈໃສ່ແລະເປັນກັນເອງ', 'Providing medical services with the highest standards, with care and friendliness'); ?></p>
-                    </div>
-                    <div>
-                        <h4 class="text-lg font-semibold mb-4"><?php echo t('ລິ້ງດ່ວນ', 'Quick Links'); ?></h4>
-                        <ul class="space-y-2">
-                            <li><a href="index.php" class="text-blue-200 hover:text-white"><?php echo t('ໜ້າຫຼັກ', 'Home'); ?></a></li>
-                            <li><a href="about.php" class="text-blue-200 hover:text-white"><?php echo t('ກ່ຽວກັບເຮົາ', 'About'); ?></a></li>
-                            <li><a href="services.php" class="text-blue-200 hover:text-white"><?php echo t('ບໍລິການ', 'Services'); ?></a></li>
-                            <li><a href="contact.php" class="text-blue-200 hover:text-white"><?php echo t('ຕິດຕໍ່', 'Contact'); ?></a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-lg font-semibold mb-4"><?php echo t('ບໍລິການຂອງເຮົາ', 'Our Services'); ?></h4>
-                        <ul class="space-y-2">
-                            <li><a href="#" class="text-blue-200 hover:text-white"><?php echo t('ກວດສຸຂະພາບ', 'Health Checkup'); ?></a></li>
-                            <li><a href="#" class="text-blue-200 hover:text-white"><?php echo t('ແພດພາຍໃນ', 'Internal Medicine'); ?></a></li>
-                            <li><a href="#" class="text-blue-200 hover:text-white"><?php echo t('ແພດເດັກ', 'Pediatrics'); ?></a></li>
-                            <li><a href="#" class="text-blue-200 hover:text-white"><?php echo t('ຜ່າຕັດ', 'Surgery'); ?></a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-lg font-semibold mb-4"><?php echo t('ຕິດຕໍ່ເຮົາ', 'Contact Us'); ?></h4>
-                        <ul class="space-y-2">
-                            <li class="flex items-center"><i class="fas fa-map-marker-alt mr-2"></i> <?php echo t('ບ້ານ ດົງນາທອງ ເມືອງ ສີໂຄດຕະບອງ', 'Dognathong Sikhodtabong'); ?></li>
-                            <li class="flex items-center"><i class="fas fa-phone-alt mr-2"></i> <?php echo t('020 78888789', '02078888789'); ?></li>
-                            <li class="flex items-center"><i class="fas fa-envelope mr-2"></i> <?php echo t('Onemed@gmail.com', 'Onemed@gmail.com'); ?></li>
-                        </ul>
-                    </div>
+    <footer class="bg-teal-600 text-white py-12 text-xl">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-4xl font-bold mb-4"><?php echo $_SESSION['lang'] == 'lo' ? SITE_NAME_LO : SITE_NAME_EN; ?></h3>
+                    <p class="text-white"><?php echo t('ໃຫ້ບໍລິການທາງການແພດດ້ວຍມາດຕະຖານສູງສຸດ ດ້ວຍຄວາມເອົາໃຈໃສ່ແລະເປັນກັນເອງ', 'Providing medical services with the highest standards, with care and friendliness'); ?></p>
                 </div>
-                <div class="border-t border-blue-800 mt-8 pt-8 text-center text-blue-200">
-                    <p>&copy; <?php echo date('Y'); ?> <?php echo $_SESSION['lang'] == 'lo' ? SITE_NAME_LO : SITE_NAME_EN; ?>. <?php echo t('ສະຫງວນລິຂະສິດ', 'All Rights Reserved'); ?></p>
+                <div>
+                    <h4 class="text-4xl font-semibold mb-4"><?php echo t('ລິ້ງດ່ວນ', 'Quick Links'); ?></h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.php" class="text-white"><?php echo t('ໜ້າຫຼັກ', 'Home'); ?></a></li>
+                        <li><a href="about.php" class="text-white"><?php echo t('ກ່ຽວກັບເຮົາ', 'About'); ?></a></li>
+                        <li><a href="services.php" class="text-white"><?php echo t('ບໍລິການ', 'Services'); ?></a></li>
+                        <li><a href="contact.php" class="text-white"><?php echo t('ຕິດຕໍ່', 'Contact'); ?></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-4xl font-semibold mb-4"><?php echo t('ບໍລິການຂອງເຮົາ', 'Our Services'); ?></h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-white"><?php echo t('ກວດສຸຂະພາບ', 'Health Checkup'); ?></a></li>
+                        <li><a href="#" class="text-white"><?php echo t('ແພດພາຍໃນ', 'Internal Medicine'); ?></a></li>
+                        <li><a href="#" class="text-white"><?php echo t('ແພດເດັກ', 'Pediatrics'); ?></a></li>
+                        <li><a href="#" class="text-white"><?php echo t('ຜ່າຕັດ', 'Surgery'); ?></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-4xl font-semibold mb-4"><?php echo t('ຕິດຕໍ່ເຮົາ', 'Contact Us'); ?></h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><i class="fas fa-map-marker-alt mr-2"></i> <?php echo t('ບ້ານ ດົງນາທອງ ເມືອງ ສີໂຄດຕະບອງ', 'Dognathong Sikhodtabong'); ?></li>
+                        <li class="flex items-center"><i class="fas fa-phone-alt mr-2"></i> <?php echo t('020 78888789', '02078888789'); ?></li>
+                        <li class="flex items-center"><i class="fas fa-envelope mr-2"></i> <?php echo t('Onemed@gmail.com', 'Onemed@gmail.com'); ?></li>
+                    </ul>
                 </div>
             </div>
-        </footer>
+            <div class="border-t border-blue-600 mt-8 pt-8 text-center text-white">
+                <p>&copy; <?php echo date('Y'); ?> <?php echo $_SESSION['lang'] == 'lo' ? SITE_NAME_LO : SITE_NAME_EN; ?>. <?php echo t('ສະຫງວນລິຂະສິດ', 'All Rights Reserved'); ?></p>
+            </div>
+        </div>
+    </footer>
 
-        <script src="assets/js/main.js"></script>
-        </body>
 
-        </html>
+    <script src="assets/js/main.js"></script>
+    </body>
+
+    </html>
