@@ -3,6 +3,17 @@ body, html, * {
     font-family: 'Noto Sans Lao', 'Phetsarath OT', 'Saysettha OT', sans-serif !important;
 }
 
+/* ตั้งค่าตัวแปรสีหลัก */
+:root {
+    --primary-color: #26b2b1;      /* สีหลักของโลโก้ (สีเทอร์ควอยซ์) */
+    --primary-light: #6fe5e4;      /* สีอ่อนของสีหลัก */
+    --primary-dark: #008a8a;       /* สีเข้มของสีหลัก */
+    --accent-color: #1a7a79;       /* สีเน้น */
+    --text-light: #ffffff;         /* สีข้อความบนพื้นเข้ม */
+    --text-dark: #333333;          /* สีข้อความบนพื้นอ่อน */
+    --bg-light: #f5f5f5;           /* สีพื้นหลังอ่อน */
+}
+
 /* Mobile Menu Animation */
 .mobile-menu {  
     transition: all 0.3s ease;
@@ -10,7 +21,7 @@ body, html, * {
 
 /* Form Input Focus */
 input:focus, textarea:focus, select:focus {
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+    box-shadow: 0 0 0 3px rgba(38, 178, 177, 0.5); /* ปรับสีให้เป็นสีเทอร์ควอยซ์ */
 }
 
 /* Error State */
@@ -33,8 +44,6 @@ input:focus, textarea:focus, select:focus {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
-
-/* เพิ่มสไตล์เหล่านี้ในไฟล์ style.css ที่มีอยู่แล้ว */
 
 /* Contact Page Styles */
 .contact-info-card {
@@ -85,14 +94,14 @@ input:focus, textarea:focus, select:focus {
 .delay-200 { animation-delay: 0.2s; }
 .delay-300 { animation-delay: 0.3s; }
 
-/* Service Card Hover */
+/* Service Card Hover - ปรับสีให้เป็นเทอร์ควอยซ์ */
 .service-card:hover .service-icon {
     transform: rotateY(180deg);
     color: white;
 }
 
 .service-card:hover {
-    background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
     color: white;
 }
 
@@ -167,4 +176,62 @@ input:focus, textarea:focus, select:focus {
         font-size: 0.9rem;
         z-index: 10;
     }
+}
+
+/* สไตล์สำหรับ dropdown menu - รวมเป็นกลุ่มเดียว */
+.group:hover .group-hover\:block {
+    display: block !important;
+}
+
+.group-hover\:block {
+    transition: all 0.3s ease;
+    transform-origin: top;
+    z-index: 50; /* เพิ่ม z-index เพื่อให้ dropdown แสดงอยู่ด้านบนของเนื้อหาอื่น */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+}
+
+.group:hover .group-hover\:block {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+/* เพิ่มสไตล์สำหรับปุ่ม Teal */
+.bg-teal-500 {
+    background-color: var(--primary-color);
+}
+
+.bg-teal-600 {
+    background-color: var(--accent-color);
+}
+
+.bg-teal-700 {
+    background-color: var(--primary-dark);
+}
+
+.hover\:bg-teal-600:hover {
+    background-color: var(--accent-color);
+}
+
+.hover\:bg-teal-700:hover {
+    background-color: var(--primary-dark);
+}
+
+.hover\:text-teal-100:hover {
+    color: #d1fdfd;
+}
+
+.hover\:bg-teal-50:hover {
+    background-color: #e6ffff;
+}
+
+.border-teal-600 {
+    border-color: var(--accent-color);
 }

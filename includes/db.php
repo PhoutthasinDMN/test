@@ -22,12 +22,31 @@ class Database {
         $this->conn->close();
     }
     
-    public function query($sql) {
-        return $this->conn->query($sql);
+    // เพิ่ม prepared statement เพื่อความปลอดภัย
+    public function query($sql, $params = []) {
+        if (empty($params)) {
+            return $this->conn->query($sql);
+        } else {
+            $stmt = $this->conn->prepare($sql);
+            if ($stmt) {
+                $types = str_repeat('s', count($params)); // สมมติว่าทั้งหมดเป็น string
+                $stmt->bind_param($types, ...$params);
+                $stmt->execute();
+                return $stmt->get_result();
+            } else {
+                return false;
+            }
+        }
     }
     
     public function escapeString($string) {
         return $this->conn->real_escape_string($string);
+    }
+    
+    // เพิ่มฟังก์ชันจัดการข้อผิดพลาด
+    public function handleError($message) {
+        error_log("Database Error: " . $message);
+        return "เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้งในภายหลัง";
     }
 }
 
